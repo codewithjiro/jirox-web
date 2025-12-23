@@ -40,15 +40,15 @@ This approach relies on known properties of Gemini-generated images and is **not
 
 ## Project structure
 
-├── index.html          # UI and layout
-├── app.js              # UI logic and event handling
-├── engine.js           # Core processing engine
-├── blendModes.js       # Pixel-level reconstruction logic
-├── alphaMap.js         # Alpha map generation
-├── assets/
-│   ├── bg_48.png       # Background reference (48px)
-│   └── bg_96.png       # Background reference (96px)
-
+- index.html — UI and layout
+- app.js — UI logic and event handling
+- engine.js — Core processing engine
+- blendModes.js — Pixel-level reconstruction logic
+- alphaMap.js — Alpha map generation
+- assets/
+  - bg_48.png — Background reference (48px)
+  - bg_96.png — Background reference (96px)
+    
 ---
 
 ## Requirements 
